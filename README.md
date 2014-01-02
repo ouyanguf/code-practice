@@ -1,4 +1,4 @@
-Cracking The Code Interview
+Code Practice
 ===========================
 
-Cracking The Code Interview in Java (Still Updating)
+Code in Java (Still Updating)
