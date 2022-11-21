@@ -1,0 +1,39 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Parameters": {
+        "NamePlease": {
+            "Type": "String",
+            "Default": "Default",
+            "Description": "A good name.",
+            "MinLength": 5
+        }
+    },
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "0b8e0e8f-262e-43fc-ae67-deaa29dfea20": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 471,
+                    "y": 149
+                },
+                "z": 0
+            }
+        }
+    },
+    "Resources": {
+        "SNST4P5IL": {
+            "Type": "AWS::SNS::Topic",
+            "Properties": {
+                "TopicName": {"Ref": "NamePlease"}
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "0b8e0e8f-262e-43fc-ae67-deaa29dfea20"
+                }
+            }
+        }
+    }
+}
